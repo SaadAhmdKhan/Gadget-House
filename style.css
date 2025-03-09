@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff; /* White navbar */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.navbar-brand img.web-logo {
+    height: 50px; /* Adjust logo size */
+    width: auto;
+}
+
+/* Navbar Links */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar-button a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-button a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+/* Logout Button */
+#logout-btn {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#logout-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-button {
+        margin: 10px 0;
+    }
+
+    #logout-btn {
+        width: 100%;
+    }
+}
